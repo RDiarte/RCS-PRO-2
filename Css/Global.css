@@ -55,7 +55,7 @@ header {
 footer {
   margin-top: auto;
   background-color: var(--cua);
-  height: 10vh;
+  height: 15vh;
 }
 
 .texto-nav {
@@ -118,4 +118,79 @@ footer {
   text-decoration: underline;
   font-size: 20px;
   padding: 0.5rem;
+}
+
+.caja-yoda {
+  height: 150px;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  background-color: var(--cua);
+  background-image: url(https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/blog/7-lecciones-yoda-1138x658.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0.5rem;
+}
+
+.caja-ObiWan {
+  height: 150px;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  background-color: var(--cua);
+  background-image: url(https://www.latercera.com/resizer/IBz8my4mHuXkxGarhyaCW48GH9A=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/AKMMZYH7EBD3RNBPUOOHB345EA.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0.5rem;
+}
+.caja-skywalker {
+  height: 150px;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  background-color: var(--cua);
+  background-image: url(https://media.wired.com/photos/5955b78163d43b038e9bc6e9/master/w_2560%2Cc_limit/greatest-star-wars-characters-luke-skywalker.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0.5rem;
+}
+
+.caja-sidius {
+  height: 150px;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  background-color: var(--cua);
+  background-image: url(https://crops.giga.de/dc/fc/af/5d9055601282e97c4fc0b558cb_YyAyMzY1eDEzMzArMTYrMzQCcmUgMTkyMCAxMDgwA2RjNTA2MmVjYzVj.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0.5rem;
+}
+
+.caja-maul {
+  height: 150px;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  background-color: var(--cua);
+  background-image: url(https://es.web.img2.acsta.net/r_1280_720/newsv7/16/03/07/11/23/552329.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0.5rem;
+}
+
+.caja-vader {
+  height: 150px;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  background-color: var(--cua);
+  background-image: url(https://s.abcnews.com/images/Entertainment/HT_darth_vader_jef_160715_4x5_992.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 0.5rem;
+}
+
+.cajas-footer {
+  height: ;
 }
