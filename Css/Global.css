@@ -6,6 +6,7 @@
   --sec: #f7a7c6;
   --ter: #e0d98c;
   --cua: #c3ff99;
+  --qui: aliceblue;
 }
 
 body {
@@ -18,6 +19,10 @@ body {
 nav {
   display: flex;
   background-color: var(--pri);
+  background-image: url(https://img.freepik.com/free-vector/colorful-light-sword-collection_23-2147919889.jpg?w=2000);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 0.25rem;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +43,7 @@ header {
   gap: 0.5rem;
 }
 .h1 {
-  color: var(--sec);
+  color: var(--qui);
   font-size: 55px;
   text-align: center;
 }
@@ -63,6 +68,7 @@ footer {
   align-items: center;
   text-decoration: underline;
   font-weight: bold;
+  color: var(--qui);
 }
 
 .cajas {
@@ -103,6 +109,7 @@ footer {
 .logo {
   font-size: 3rem;
   padding-left: 2rem;
+  color: var(--qui);
 }
 .boton {
   justify-content: space-between;
