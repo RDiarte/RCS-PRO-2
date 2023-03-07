@@ -7,6 +7,7 @@
   --ter: #e0d98c;
   --cua: #c3ff99;
   --qui: aliceblue;
+  --sext: #2c74b3;
 }
 
 body {
@@ -31,7 +32,7 @@ nav {
 header {
   display: flex;
   flex-direction: column;
-  background-image: url(https://medialab.unmsm.edu.pe/chiqaqnews/wp-content/uploads/2021/01/dia-star-wars.jpg);
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/Death-Star-I-copy_36ad2500.jpeg?region=0%2C31%2C1600%2C800);
   background-position: center;
   background-size: cover;
   align-items: center;
@@ -43,7 +44,7 @@ header {
   gap: 0.5rem;
 }
 .h1 {
-  color: var(--qui);
+  color: var(--cua);
   font-size: 55px;
   text-align: center;
 }
@@ -61,6 +62,9 @@ footer {
   margin-top: auto;
   background-color: var(--cua);
   height: 15vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .texto-nav {
@@ -100,12 +104,6 @@ footer {
   }
 }
 
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .logo {
   font-size: 3rem;
   padding-left: 2rem;
@@ -119,8 +117,17 @@ footer {
 
 .article {
   background-color: var(--ter);
+  background-image: url(https://www.elcorteingles.es/entradas/blog/wp-content/uploads/2022/04/starwars.jpg);
+  background-position: center;
+  background-size: cover;
   text-align: center;
+  padding: 0.5rem;
 }
+
+.texto {
+  color: var(--qui);
+}
+
 .h2 {
   text-decoration: underline;
   font-size: 20px;
@@ -198,6 +205,18 @@ footer {
   padding-bottom: 0.5rem;
 }
 
-.cajas-footer {
-  height: ;
+.cajas-rs {
+  height: 20px;
+  border: transparent;
+  border-radius: 0.5rem;
+  background-color: var(--cua);
+
+  /*padding-top: 0.5rem;
+  padding-bottom: 0.5rem;*/
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
